@@ -1,3 +1,0 @@
-Sentence: வனக்கம் இண்ரய தலைப்பு கெய்திஹல் 
-Transliteration: vaNakkam ind~raya talaippuc ceydihal
-Subword units : va Nak kam ind~ ra ya ta laip puc cey di hal

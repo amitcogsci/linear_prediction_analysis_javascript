@@ -1,3 +1,0 @@
-Sentence: ಇಲ್ಲಿಗೆ ವಾರ್ತಾ ಪ್ರಸಾರ ಮುಕ್ತಾಯವಾಯಿತು 
-Transliteration: illige vaartaa prasaara muktaayavaayitu
-Subword units : il li ge vaar taa pra saa ra muk taa ya vaa yi tu

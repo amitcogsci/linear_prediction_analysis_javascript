@@ -1,3 +1,0 @@
-Sentence: ఈరోజు వార్తల్లోని ముఖ్యామ్శాలు 
-Transliteration: iirooju vaartallooni mukhyaamshaalu 
-Subword units: ii roo ju vaar tal loo ni mukh yaam shaa lu

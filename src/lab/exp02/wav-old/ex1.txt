@@ -1,3 +1,0 @@
-Sentence: विदेश् मंत्रालय् के प्रवक्ता ने फिर् कहा 
-Transliteration: videsh man'traalay ke pravaktaa ne phir kahaa 
-Subword units: vi desh man' traa lay ke pra vak taa ne phir ka haa

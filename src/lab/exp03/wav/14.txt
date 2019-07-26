@@ -1,5 +1,0 @@
-F0 100 Hz
-F1 500 Hz
-F2 1300 Hz
-F3 2500 Hz
-DUR 120 ms

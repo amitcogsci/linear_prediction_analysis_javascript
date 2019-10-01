@@ -1,7 +1,0 @@
-S.no		Test case link
-1. 	[[https://github.com/Virtual-Labs/speech-signal-processing-iiith/blob/master/test-cases/integration_test-cases/System/cse16_01_Usability_smk.org][cse16_01_Usability_smk.org]]
-2. 	[[https://github.com/Virtual-Labs/speech-signal-processing-iiith/blob/master/test-cases/integration_test-cases/System/cse16_02_Targeted%20Audience_smk.org][cse16_02_Targeted Audience_smk.org]]
-3. 	[[https://github.com/Virtual-Labs/speech-signal-processing-iiith/blob/master/test-cases/integration_test-cases/System/cse16_03_Courses%20Alligned_smk.org][cse16_03_Courses Alligned_smk.org]]
-4. 	[[https://github.com/Virtual-Labs/speech-signal-processing-iiith/blob/master/test-cases/integration_test-cases/System/cse16_04_Pre-requisites_smk.org][cse16_04_Pre-requisites_smk.org]]
-5. 	[[https://github.com/Virtual-Labs/speech-signal-processing-iiith/blob/master/test-cases/integration_test-cases/System/cse16_05_Feedback_smk.org][cse16_05_Feedback_smk.org]]
-6. 	[[https://github.com/Virtual-Labs/speech-signal-processing-iiith/blob/master/test-cases/integration_test-cases/System/cse16_06_Feedback_p1.org][cse16_06_Feedback_p1.org]]

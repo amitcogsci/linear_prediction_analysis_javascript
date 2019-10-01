@@ -1,0 +1,258 @@
+{
+    "articles": [
+        {
+            "quiztitle":"Quiz for Linear Predictive Analysis of Speech",
+            "containers":"5"
+        },
+        {
+            "q": "In which domain the LP analysis plots the residual signal",
+            "option": [
+                "frequency domain",
+                "Time domain",
+                "Time-frequency domain"
+            ],
+            "answer": "Time domain",
+            "description": "The amplitude of residual signal is plotted against time."
+        },
+        {
+            "q": "At what rate speech is sampled in normal conditions?",
+            "option": [
+                "64000 bits/sec",
+                "128 kb/sec",
+                "360 kb/sec"
+            ],
+            "answer": "64000 bits/sec",
+            "description": "Speech is sampled at 8000 samples/second with 8 bits used to represent each sample."
+        },
+        {
+            "q": "LPC reduces the sampling rate at what extent?",
+            "option": [
+                "4800 bits/sec",
+                "6400 bits/sec",
+                "2400 bits/sec"
+            ],
+            "answer": "2400 bits/sec",
+            "description": "linear predictive coding is a lossy form of compression. And it reduces the original signal to 2400 bits/sec with the reduction in sound quality"
+        },
+        {
+            "q": "What's the range of frequency of human speech?",
+            "option": [
+                "300 Hz to 3400 Hz",
+                "200 Hz to 4800 Hz",
+                "100 Hz to 5600 Hz"
+            ],
+            "answer": "300 Hz to 3400 Hz",
+            "description": "The frequency of human speech production ranges from around 300 Hz to 3400 Hz."
+        },
+        {
+            "q": "What are the two features of sounds considered by the LPC Analysis while encoding and decoding the sound?",
+            "option": [
+                "Fricative and Plosives",
+                "Voiced and Unvoiced",
+                "Vowels and Consonents "
+            ],
+            "answer": "Voiced and Unvoiced",
+            "description": "The sounds can be characterzed by Glottal Pulse which is produced by either vibration of vocal cord; voiced or simply opening of vocal cord unvoiced. "
+        },
+        {
+            "q": "In what type of sound there is no Glottal pulses?",
+            "option": [
+                "Voiced",
+                "Vowels",
+                "Unvoiced"
+            ],
+            "answer": "Unvoiced",
+            "description": "Pitch is an unimportant attribute of unvoiced speech since there is no vibration of the vocal cords and no glottal pulses."
+        },
+        {
+            "q": "In Source-Filter model what is the filter in sound production?",
+            "option": [
+                "Lungs",
+                "Vocal cord",
+                "Vocal Tract"
+            ],
+            "answer": "Vocal Tract",
+            "description": "The idea of the air from the lungs as a source and the vocal tract as a filter is called the source-filter model for sound production."
+        },
+        {
+            "q": "During the production of unvoiced sound the characteristic of air through vocal tract is?",
+            "option": [
+                "Turbulent and random",
+                "Periodic",
+                "none of the above"
+            ],
+            "answer": "Turbulent and random",
+            "description": "During production the air can be periodic, when producing voiced sounds through vibrating vocal cords, or it can be turbulent and random when producing unvoiced sounds."
+        },
+        {
+            "q": "What are the two key components of LPC model? ",
+            "option": [
+                "Analysis and Encoding",
+                "Analysis and Synthesis",
+                "Synthesis and Decoding"
+            ],
+            "answer": "Analysis and Synthesis",
+            "description": "Linear predictive coding model has two key components: analysis or encoding and synthesis or decoding. "
+        },
+        {
+            "q": "Which sound type has a high energy level and high amplitudes?",
+            "option": [
+                "Voiced",
+                "Unvoiced",
+                "Consonants"
+            ],
+            "answer": "Voiced",
+            "description": "Voiced sounds are usually vowels and can be considered as a pulse that is similar to periodic waveforms. These sounds have high average energy levels which means that they have very large amplitudes."
+        },
+        {
+            "q": "For which sound type the LPC cannot give estimations?",
+            "option": [
+                "fricatives",
+                "Plosives",
+                "Nasals"
+            ],
+            "answer": "Nasals",
+            "description": "One misinterpretation by the LPC model is with a group of sounds known as nasal sounds. During the production of these sounds the nose cavity destroys the concept of a linear tube since the tube now has a branch."
+        },
+        {
+            "q": "The time required for one wave cycle to completely pass a fixed position in voiced speech is called?",
+            "option": [
+                "Pitch period",
+                "Frequency",
+                "Amplitude"
+            ],
+            "answer": "Pitch period",
+            "description": "The pitch period is the period of the vocal cord vibration that occurs during the production of voiced speech."
+        },
+        {
+            "q": "The LP coefficients are estimated by which method?",
+            "option": [
+                "Auto regression method",
+                "Autocorrelation method",
+                "Cross Correlation"
+            ],
+            "answer": "Autocorrelation method",
+            "description": "There are two approaches that can be used for the estimation of LP coefficients: autocorrelation and autocovariance."
+        },
+        {
+            "q": "For the analysis of voiced sound what is the order of filter?",
+            "option": [
+                "10th order filter",
+                "4th order filter",
+                "8th order filter"
+            ],
+            "answer": "10th order filter",
+            "description": "If the segment contains voiced speech than a 10th order filter is used. This means that 11 values are needed: 10 reflection coefficients and the gain. If the segment contains unvoiced speech than a 4th order filter is used. This means that 5 values are needed: 4 reflection coefficients and the gain."
+        },
+        {
+            "q": "What is the length of the window segment used to analyse speech?",
+            "option": [
+                "40-50 ms",
+                "30-40 ms",
+                "10-30 ms"
+            ],
+            "answer": "10-30 ms",
+            "description": "The segmental analysis corresponds to the processing of speech as short 10-30 ms overlapped 5-15 ms windows."
+        },
+        {
+            "q": "The LP residual is obtained by",
+            "option": [
+                "Low-pass filtering of speech using LP coefficients",
+                "Inverse filtering of speech signal",
+                "High-pass filtering of speech using LP coefficients"
+            ],
+            "answer": "Inverse filtering of speech signal",
+            "description": "The error signal obtained by inverse filtering the speech signal is referred to as the LP residual."
+        },
+        {
+            "q": "Linear predictive coding system models the vocal cord as what kind of linear filter?",
+            "option": [
+                "All zero",
+                "All pole",
+                "No pole"
+            ],
+            "answer": "All pole",
+            "description": "The linear predictive coding system models the vocal tract as an all pole linear filter. The excitation to this filter is either a pulse at the pitch frequency or random white noise depending on whether the speech segment is voiced or unvoiced."
+        },
+        {
+            "q": "Which of the following LPC uses code book?",
+            "option": [
+                "Code Excited LPC",
+                "LPC Vocoders",
+                "Residual excited LPC"
+            ],
+            "answer": "Code Excited LPC",
+            "description": "Code Excited LPC uses code books"
+        },
+        {
+            "q": "How many past samples are used by linear predictive coders to estimate present sample?",
+            "option": [
+                "200-300",
+                "100-150",
+                "10-15"
+            ],
+            "answer": "10-15",
+            "description": "LPC uses weighted sum of past p smaples to estimate the current sample. This number varies from 10-15."
+        },
+        {
+            "q": "Which sound can be characterized as white noise",
+            "option": [
+                "Unvoiced",
+                "Voiced",
+                "Vowels"
+            ],
+            "answer": "Unvoiced",
+            "description": "Unvoiced sounds are random noise where the Glottal pulse is absent."
+        },
+        {
+            "q": "What are formants?",
+            "option": [
+                "Resonant frequency of vocal tract",
+                "Periodic Glottal pulse",
+                "Sound segment window"
+            ],
+            "answer": "Resonant frequency of vocal tract",
+            "description": "The vocal tract can be considered as a cascade of resonator cavities with different shapes and sizes. The resonant frequencies of these cavities are referred to as formants. "
+        },
+        {
+            "q": "Which is the linear time varying filter in LP model?",
+            "option": [
+                "Vocal tract",
+                "Lungs",
+                "Vocal cord"
+            ],
+            "answer": "Vocal tract",
+            "description": "It is assumed that speech is produced by exciting a linear time-varying filter - the vocal tract by random noise for unvoiced speech segments, or a train of pulses for voiced speech."
+        },
+        {
+            "q": "Glottal pulses are created by which mechanism?",
+            "option": [
+                "Periodic opening and closing of vocal folds",
+                "Resonance of vocal tract",
+                "Opening of pharyngeal tract"
+            ],
+            "answer": "Periodic opening and closing of vocal tract",
+            "description": "Glottal pulses created by periodic opening and closing of the vocal folds ;voiced speech"
+        },
+        {
+            "q": "How the formant locations are estimated by LP analysis",
+            "option": [
+                "From LP residual.",
+                "From LP spectrum",
+                "Autocorrelation of LP residual."
+            ],
+            "answer": "From LP spectrum",
+            "description": "The formant locations are estimated from LP Spectrum"
+        },
+        {
+            "q": "What is the nature of the normalized error curve",
+            "option": [
+                "Increasing",
+                "Gaussian",
+                "Decreasing"
+            ],
+            "answer": "Decreasing",
+            "description": "The normalized error curve monotonically decreases."
+        }
+    ]
+}

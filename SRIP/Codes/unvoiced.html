@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>LPC_coding_voiced</title>
+
+    </head>
+     <body>
+     
+      <div id="audio-spectrum"></div>
+      <center>Linear prediction analysis of speech</center>
+   
+      <input type="button" id="btn-play" value="Play" disabled="disabled"/>
+      <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">select sound</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="voiced.html">voiced</a>
+              <a href="unvoiced.html">unvoiced</a>
+            </div>                                      
+      </div>    
+        <link rel = "stylesheet" type = "text/css" href = "style.css" />
+        <script type= "text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+        <script type= "text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.js"></script>
+        <script type= "text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.js"></script>
+        <script type= "text/JavaScript" src ="sketch_unvoiced.js" ></script>
+        <script type= "text/javascript" src= "dropdown.js"></script>
+        <script type= "text/javascript" src="https://cdn.jsdelivr.net/npm/wavesurfer@1.3.4/dist/wavesurfer.min.js"></script>
+        <script type= "text/javascript" src= "wave_unvoiced.js"></script>
+        <script type= "text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/1.2.3/plugin/wavesurfer.regions.min.js"></script>
+
+    </body>
+</html>                                                                                                                                                                                                                                                                                                                                            
